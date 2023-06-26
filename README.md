@@ -69,7 +69,7 @@ void loop()
 switchfs = digitalRead(fs);
 switchls = digitalRead(ls);
 switchrs = digitalRead(rs);
-if (switchfs==0 && switchrs==0&& switchls==0)
+###if (switchfs==0 && switchrs==0&& switchls==0)
 { 
 digitalWrite(fl1,HIGH);
 digitalWrite(fl2,LOW);
